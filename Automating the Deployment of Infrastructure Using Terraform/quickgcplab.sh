@@ -29,19 +29,19 @@ mkdir tfinfra
 
 cd tfinfra
 
-wget https://raw.githubusercontent.com/murilomura/2-Minutes-Labs-Solutions/49e8982cb7f0ae7fc3d5a5d7f0441bf7c9cb956d/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/provider.tf
+wget https://raw.githubusercontent.com/murilomura/2-Minutes-Labs-Solutions/refs/heads/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/provider.tf
 
 wget https://raw.githubusercontent.com/murilomura/2-Minutes-Labs-Solutions/refs/heads/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/muraterra.tfstate
 
-wget https://raw.githubusercontent.com/murilomura/2-Minutes-Labs-Solutions/49e8982cb7f0ae7fc3d5a5d7f0441bf7c9cb956d/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/variables.tf
+wget https://raw.githubusercontent.com/murilomura/2-Minutes-Labs-Solutions/refs/heads/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/variables.tf
 
-wget https://raw.githubusercontent.com/murilomura/2-Minutes-Labs-Solutions/49e8982cb7f0ae7fc3d5a5d7f0441bf7c9cb956d/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/mynetwork.tf
+wget https://raw.githubusercontent.com/murilomura/2-Minutes-Labs-Solutions/refs/heads/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/mynetwork.tf
 
 mkdir instance
 
 cd instance
 
-wget https://raw.githubusercontent.com/murilomura/2-Minutes-Labs-Solutions/49e8982cb7f0ae7fc3d5a5d7f0441bf7c9cb956d/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/main.tf
+wget https://raw.githubusercontent.com/murilomura/2-Minutes-Labs-Solutions/refs/heads/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/main.tf
 
 cd ..
 
