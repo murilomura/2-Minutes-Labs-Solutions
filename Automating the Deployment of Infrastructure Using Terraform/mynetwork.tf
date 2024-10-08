@@ -4,13 +4,6 @@ name = "mynetwork"
 # RESOURCE properties go here
 auto_create_subnetworks = "true"
 }
-
-# Create the mynetwork network
-resource "google_compute_network" "mynetwork" {
-name = "mynetwork"
-# RESOURCE properties go here
-auto_create_subnetworks = "true"
-}
 # Add a firewall rule to allow HTTP, SSH, RDP and ICMP traffic on mynetwork
 resource "google_compute_firewall" "mynetwork-allow-http-ssh-rdp-icmp" {
 name = "mynetwork-allow-http-ssh-rdp-icmp"
@@ -25,8 +18,6 @@ allow {
     }
 source_ranges = ["0.0.0.0/0"]
 }
-
-
 # Create the mynet-us-vm instance
 module "mynet-us-vm" {
   source           = "./instance"
@@ -34,7 +25,6 @@ module "mynet-us-vm" {
   instance_zone    = "Zone"
   instance_network = google_compute_network.mynetwork.self_link
 }
-
 # Create the mynet-asia-vm" instance
 module "mynet-asia-vm" {
   source           = "./instance"
