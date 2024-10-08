@@ -7,7 +7,7 @@
 export ZONE=
 ```
 ```
-curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/quickgcplab.sh
+curl -LO https://raw.githubusercontent.com/murilomura/2-Minutes-Labs-Solutions/49e8982cb7f0ae7fc3d5a5d7f0441bf7c9cb956d/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/quickgcplab.sh
 
 sudo chmod +x quickgcplab.sh
 
